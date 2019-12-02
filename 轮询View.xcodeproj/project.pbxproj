@@ -16,6 +16,7 @@
 		3E4DF33F2394B32700DD00AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DF33E2394B32700DD00AE /* main.m */; };
 		3E4DF3492394B32800DD00AE /* __ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DF3482394B32800DD00AE /* __ViewTests.m */; };
 		3E4DF3542394B32800DD00AE /* __ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DF3532394B32800DD00AE /* __ViewUITests.m */; };
+		3E4DF3642394E0F300DD00AE /* LQRollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DF3632394E0F300DD00AE /* LQRollTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3E4DF34F2394B32800DD00AE /* 轮询ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轮询ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4DF3532394B32800DD00AE /* __ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __ViewUITests.m; sourceTree = "<group>"; };
 		3E4DF3552394B32800DD00AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4DF3622394E0F300DD00AE /* LQRollTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQRollTextView.h; sourceTree = "<group>"; };
+		3E4DF3632394E0F300DD00AE /* LQRollTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQRollTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				3E4DF33A2394B32700DD00AE /* LaunchScreen.storyboard */,
 				3E4DF33D2394B32700DD00AE /* Info.plist */,
 				3E4DF33E2394B32700DD00AE /* main.m */,
+				3E4DF3622394E0F300DD00AE /* LQRollTextView.h */,
+				3E4DF3632394E0F300DD00AE /* LQRollTextView.m */,
 			);
 			path = "轮询View";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				3E4DF3342394B32600DD00AE /* ViewController.m in Sources */,
 				3E4DF32E2394B32600DD00AE /* AppDelegate.m in Sources */,
 				3E4DF33F2394B32700DD00AE /* main.m in Sources */,
+				3E4DF3642394E0F300DD00AE /* LQRollTextView.m in Sources */,
 				3E4DF3312394B32600DD00AE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

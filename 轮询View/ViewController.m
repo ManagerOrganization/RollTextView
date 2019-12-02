@@ -7,17 +7,22 @@
 //
 
 #import "ViewController.h"
+#import "LQRollTextView.h"
 
 @interface ViewController ()
 
+/** 滚动View */
+@property (nonatomic, strong) LQRollTextView *rollTextView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
 
+    self.rollTextView = [[LQRollTextView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 24)];
+    [self.view addSubview:self.rollTextView];
+
+}
 
 @end
