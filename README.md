@@ -51,5 +51,7 @@
 *可根据实际情况进行自定义界面操作，实现原理不变*
 
 GitHub地址 ：https://github.com/qiuyubude/RollTextView
+
 简书地址：https://www.jianshu.com/p/8744fd855eed
+
 掘金地址：https://juejin.im/post/5de4d1d35188250f9c2472b4
