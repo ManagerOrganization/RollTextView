@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "LQRollTextView.h"
-
+#import "LQMarqueeView.h"
 @interface ViewController ()
 
 /** 滚动View */
@@ -23,6 +23,8 @@
     self.rollTextView = [[LQRollTextView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 24)];
     [self.view addSubview:self.rollTextView];
 
+    LQMarqueeView *marqueeView = [[LQMarqueeView alloc] initWithFrame:CGRectMake(0, 200, 100, 24)];
+    [self.view addSubview:marqueeView];
 }
 
 @end

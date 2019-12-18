@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E453BBC23A9FAE6002AC835 /* LQMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E453BBB23A9FAE5002AC835 /* LQMarqueeView.m */; };
 		3E4DF32E2394B32600DD00AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DF32D2394B32600DD00AE /* AppDelegate.m */; };
 		3E4DF3312394B32600DD00AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DF3302394B32600DD00AE /* SceneDelegate.m */; };
 		3E4DF3342394B32600DD00AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DF3332394B32600DD00AE /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E453BBA23A9FAE5002AC835 /* LQMarqueeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQMarqueeView.h; sourceTree = "<group>"; };
+		3E453BBB23A9FAE5002AC835 /* LQMarqueeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQMarqueeView.m; sourceTree = "<group>"; };
 		3E4DF3292394B32600DD00AE /* 轮询View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "轮询View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4DF32C2394B32600DD00AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E4DF32D2394B32600DD00AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				3E4DF33E2394B32700DD00AE /* main.m */,
 				3E4DF3622394E0F300DD00AE /* LQRollTextView.h */,
 				3E4DF3632394E0F300DD00AE /* LQRollTextView.m */,
+				3E453BBA23A9FAE5002AC835 /* LQMarqueeView.h */,
+				3E453BBB23A9FAE5002AC835 /* LQMarqueeView.m */,
 			);
 			path = "轮询View";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				3E4DF32E2394B32600DD00AE /* AppDelegate.m in Sources */,
 				3E4DF33F2394B32700DD00AE /* main.m in Sources */,
 				3E4DF3642394E0F300DD00AE /* LQRollTextView.m in Sources */,
+				3E453BBC23A9FAE6002AC835 /* LQMarqueeView.m in Sources */,
 				3E4DF3312394B32600DD00AE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
